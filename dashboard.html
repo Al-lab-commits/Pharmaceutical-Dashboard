@@ -1,0 +1,259 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Alexion | Rare Disease Portfolio Intelligence</title><style>
+:root{--bg:#091224;--surface:#111e32;--surface2:#16263e;--line:#2b3b55;--fg:#e9f0fb;--muted:#a2b2ca;--teal:#43d6b1;--blue:#65a3ff;--amber:#f1c16c;--pink:#ef8eae}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}a{color:#92bbff}header{background:linear-gradient(120deg,#102748,#0a1627);padding:27px max(22px,calc((100vw - 1300px)/2));border-bottom:1px solid var(--line)}.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:11px;color:var(--teal);font-weight:750}.head{display:flex;justify-content:space-between;gap:20px;align-items:center}.head h1{font-size:30px;line-height:1.2;margin:8px 0}.sub{color:var(--muted);max-width:790px}.tag{background:#214d4b;color:#8ef3d8;padding:6px 10px;border-radius:16px;white-space:nowrap;font-size:11px}main{max-width:1300px;margin:auto;padding:22px}.navigation{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:22px}.nav{background:var(--surface);border:1px solid var(--line);color:var(--muted);border-radius:8px;padding:11px 15px;cursor:pointer;font-weight:650}.nav.active{background:#214a56;color:#b7fff1;border-color:#317e7b}.nav:hover,.btn:hover{filter:brightness(1.17)}.controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:20px}select,input,.btn{background:#13243b;color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:10px 12px;font:inherit}.btn{cursor:pointer}.spacer{flex:1}.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:16px}.kpi,.panel,.swot{background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:20px}.kpi label{color:var(--muted);font-size:12px;display:block;margin-bottom:7px}.kpi strong{font-size:30px;letter-spacing:-1px}.delta{font-size:12px;margin-top:4px;color:var(--muted)}.good{color:var(--teal)!important}.bad{color:var(--pink)!important}.grid2{display:grid;grid-template-columns:1.4fr 1fr;gap:15px}.gridEqual{display:grid;grid-template-columns:1fr 1fr;gap:15px}.panel{min-width:0;margin-bottom:15px}.panel h2{font-size:17px;margin:0 0 3px}.hint{font-size:12px;color:var(--muted);margin:0 0 18px}.barrow{display:grid;grid-template-columns:minmax(105px,180px) 1fr 88px;align-items:center;gap:12px;margin:14px 0;font-size:13px}.barrow .name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.track{height:13px;background:#22344d;border-radius:12px;overflow:hidden}.fill{height:100%;background:linear-gradient(90deg,#2a85bb,var(--teal));border-radius:12px;transition:width .3s}.barrow strong{text-align:right;font-size:12px}.grow{font-weight:750}.twocol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.score{border-top:1px solid var(--line);padding:14px 0;display:flex;justify-content:space-between;gap:14px}.score:last-child{padding-bottom:0}.muted{color:var(--muted)}.pill{border:1px solid #3b5269;background:#21354b;padding:3px 8px;border-radius:15px;color:#d6e7fc;font-size:11px;white-space:nowrap}table{width:100%;border-collapse:collapse;font-size:13px}th,td{text-align:left;padding:12px 10px;border-bottom:1px solid var(--line)}th{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.5px}tr:hover td{background:#172b44}.tablewrap{overflow-x:auto}.swotgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.swot{padding:17px}.swot h3{margin:0 0 14px;font-size:16px}.swotarticle{padding:10px 0;border-top:1px solid var(--line)}.swotarticle b{display:block;margin-bottom:4px}.swotarticle p{margin:4px 0 9px;color:var(--muted)}.swotarticle small{color:#9ee8df}.strength{border-top:4px solid var(--teal)}.weakness{border-top:4px solid var(--amber)}.opportunity{border-top:4px solid var(--blue)}.threat{border-top:4px solid var(--pink)}.insight{padding:15px 16px;background:#132b3c;border-left:3px solid var(--teal);margin-top:15px;color:#cdeeea}.footer{padding:25px 0;color:var(--muted);font-size:12px}.hidden{display:none!important}.pipeline{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.stage{border-top:3px solid var(--blue)}.asset{padding:9px 0;border-top:1px solid var(--line);font-size:13px}.asset b{display:block}.asset span{color:var(--muted);font-size:12px}.source{overflow-wrap:anywhere;font-size:13px;border-top:1px solid var(--line);padding:9px 0}.notes{padding-left:19px;color:var(--muted)}.notes li{margin:8px 0}.legend{display:flex;gap:18px;flex-wrap:wrap;color:var(--muted);font-size:12px}.dot{height:9px;width:9px;border-radius:50%;display:inline-block;margin-right:6px;background:var(--teal)}.check{color:var(--teal);font-weight:700}.focused{color:var(--teal)}.statline{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding:12px 0;gap:10px}.statline span{color:var(--muted)}@media(max-width:900px){.kpis{grid-template-columns:repeat(2,1fr)}.grid2,.gridEqual,.pipeline{grid-template-columns:1fr}.head{display:block}.tag{display:inline-block;margin-top:12px}}@media(max-width:560px){.swotgrid,.twocol{grid-template-columns:1fr}.kpis{grid-template-columns:1fr 1fr}.kpi strong{font-size:24px}.barrow{grid-template-columns:100px 1fr 65px;gap:5px}.nav{padding:8px 10px}.head h1{font-size:24px}}
+.donut-layout{display:flex;gap:25px;align-items:center;flex-wrap:wrap}.donut{width:225px;height:225px;flex:none;border-radius:50%;position:relative;box-shadow:0 0 0 1px #34516a;transition:background .25s}.donut-center{position:absolute;inset:49px;background:var(--surface);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center}.donut-center strong{font-size:25px}.donut-center span{font-size:11px;color:var(--muted)}.donut-legend{flex:1;min-width:220px;display:grid;gap:7px}.legendbtn{display:flex;align-items:center;justify-content:space-between;gap:8px;background:#172b44;border:1px solid #29415d;border-radius:8px;padding:9px 11px;color:var(--fg);cursor:pointer;text-align:left;font:inherit}.legendbtn:hover,.legendbtn.active{border-color:var(--teal);background:#204053}.legendbtn .swatch{width:12px;height:12px;display:inline-block;border-radius:3px;margin-right:7px}.legendbtn .pct{color:var(--muted)}@media(max-width:560px){.donut-layout{justify-content:center}.donut{width:200px;height:200px}.donut-center{inset:43px}} </style></head><body>
+<header><div class="head"><div><div class="eyebrow">Independent research portfolio · Alexion / AstraZeneca Rare Disease</div><h1>Rare Disease | Strategic Intelligence</h1><div class="sub">Executive scorecards, therapeutic product revenue, geographic performance, pipeline signals and evidence-based SWOT analysis.</div></div><div class="tag">9M 2026 · Published 30 Oct 2026</div></div></header>
+<main><nav class="navigation"><button class="nav active" data-tab="overview">01 · Executive overview</button><button class="nav" data-tab="products">02 · Product performance</button><button class="nav" data-tab="swot">03 · SWOT & action plan</button><button class="nav" data-tab="pipeline">04 · R&D pipeline</button><button class="nav" data-tab="governance">05 · Data governance</button></nav>
+<div class="controls"><label for="productFilter">Product focus</label><select id="productFilter"><option value="All">All reported lines</option></select><span class="muted" id="filterText">Entire rare disease portfolio</span><span class="spacer"></span><button class="btn" id="exportBtn">↓ Export filtered CSV</button></div>
+<section id="overview"><div class="kpis" id="kpis"></div><div class="grid2"><div class="panel"><h2>Revenue by product line</h2><p class="hint">Reported 9M 2026 total revenue · USD millions</p><div id="bars"></div></div><div class="panel"><h2>Growth vs pressure</h2><p class="hint">Year-over-year growth at constant exchange rates (CER)</p><div id="growth"></div><div class="insight" id="takeaway"></div></div></div><div class="panel"><h2>Interactive product revenue mix</h2><p class="hint">Click a product in the legend to filter the scorecards, charts and table. Click it again to reset. Revenue shares always use the full $7,544m reported portfolio as denominator.</p><div class="donut-layout"><div class="donut" id="revenueDonut" role="img" aria-label="Product revenue distribution"><div class="donut-center" id="donutCenter"></div></div><div class="donut-legend" id="donutLegend"></div></div></div><div class="gridEqual"><div class="panel"><h2>Regional revenue mix</h2><p class="hint">Four reported regional segments, USD millions</p><div id="regions"></div></div><div class="panel"><h2>Management scorecard</h2><p class="hint">Decision questions supported by public commercial data</p><div class="score"><span>Portfolio concentration</span><span class="pill">Revenue share</span></div><div class="score"><span>Product lifecycle risk</span><span class="pill">Growth and erosion</span></div><div class="score"><span>Geographic exposure</span><span class="pill">US / Europe / EM / RoW</span></div><div class="score"><span>R&D diversification</span><span class="pill">Selected pipeline signals</span></div></div></div></section>
+<section id="products" class="hidden"><div class="panel"><h2>Product benchmarking</h2><p class="hint">Filter any reported revenue line; this chart does not estimate individual revenue for bundled or unreported products.</p><div class="tablewrap"><table><thead><tr><th>Reported line</th><th>Revenue (USDm)</th><th>Growth actual</th><th>Growth CER</th><th>Share</th><th>Relevant disease area</th></tr></thead><tbody id="productRows"></tbody></table></div></div><div class="gridEqual"><div class="panel"><h2>Geographic commercial mix</h2><p class="hint">US, emerging markets, Europe and established rest of world</p><div id="geographyRows"></div></div><div class="panel"><h2>Product definitions & disclosures</h2><div id="productNotes"></div></div></div></section>
+<section id="swot" class="hidden"><div class="panel"><h2>Strategic SWOT analysis</h2><p class="hint">Analyst interpretation based on cited public evidence, not Alexion's internally validated SWOT. Product filter applies to finance pages; SWOT assesses the portfolio overall.</p><div class="swotgrid" id="swotGrid"></div></div><div class="panel"><h2>Suggested leadership actions</h2><div class="twocol"><div><b>Near-term · protect and monitor</b><ol class="notes"><li>Monitor Soliris biosimilar erosion and Ultomiris conversion by market.</li><li>Review product concentration and forecast sensitivity each quarter.</li></ol></div><div><b>Medium-term · grow and diversify</b><ol class="notes"><li>Track reimbursement, geographic access and new launches.</li><li>Review clinical readouts and regulatory milestones for selected pipeline assets.</li></ol></div></div></div></section>
+<section id="pipeline" class="hidden"><div class="panel"><h2>Selected rare-disease pipeline assets</h2><p class="hint">Examples from AstraZeneca's pipeline as of 30 October 2026 · not a comprehensive trial registry, pipeline valuation or efficacy assessment.</p><div class="pipeline" id="pipelineGrid"></div></div><div class="insight">Decision use: monitor diversification and potential future therapeutic opportunities. Development stages do not guarantee approval or revenue.</div></section>
+<section id="governance" class="hidden"><div class="gridEqual"><div class="panel"><h2>Data quality controls</h2><p class="hint">Reproduced in SQLite view <code>vw_reconciliation</code></p><div class="statline"><span>Published Rare Disease total</span><b>$7,544m</b></div><div class="statline"><span>Sum of product revenue lines</span><b>$7,544m</b></div><div class="statline"><span>Sum of 4 geographic segments</span><b>$7,544m</b></div><div class="statline"><span>Reconciliation status</span><b class="check">✓ PASS (2 checks)</b></div><p class="muted">Caution: reported financial groupings differ from the product catalogue. All quantities are published estimates/reports, not audited by this portfolio author.</p></div><div class="panel"><h2>Semantic model & rules</h2><div class="statline"><span>Fact: product_financials</span><b>5 rows</b></div><div class="statline"><span>Fact: regional_financials</span><b>5 rows</b></div><div class="statline"><span>Dimension: pipeline_assets</span><b>Selected examples</b></div><div class="statline"><span>Decision layer: swot_factors</span><b>8 factors</b></div><ul class="notes"><li>USD millions; 9-month period ending Sep 2026.</li><li>Growth actual and growth CER are distinct metrics.</li><li>Voydeya is <b>included</b> in Ultomiris reported revenue.</li><li>Other Rare Disease is <b>not</b> split into individual brands.</li><li>Only public corporate and regulatory data; no patient records.</li></ul></div></div><div class="panel"><h2>Sources and lineage</h2><p class="hint">All metric rows, regulatory context and SWOT statements have linked source categories.</p><div id="sources"></div></div><div class="panel"><h2>Scope / limitations</h2><p>Independent educational analysis. Not created or endorsed by Alexion or AstraZeneca. Financial reporting is attributed to AstraZeneca's Rare Disease therapy area, not to Alexion as a standalone legal entity. Competitive outlook and SWOT are qualitative interpretations. Product approvals and indications vary by country.</p><p>No patient-level health data, non-public financial information, proprietary internal clinical progress, or forward-looking revenue estimates are used. Last research check: 7 November 2026.</p></div></section>
+<div class="footer">© Independent pharmaceutical business intelligence portfolio · Sources: AstraZeneca, Alexion, FDA, Health Canada · Educational example only.</div></main>
+<script>const DATA={
+  "products": [
+    {
+      "product": "Ultomiris + Voydeya",
+      "molecule": "ravulizumab + danicopan (included)",
+      "modality": "Complement inhibition",
+      "indications": "PNH, aHUS, gMG, NMOSD",
+      "revenue": 4016,
+      "actual": 16,
+      "cer": 16,
+      "caveat": "Ultomiris revenue includes Voydeya; never add Voydeya again",
+      "source": "financial"
+    },
+    {
+      "product": "Strensiq",
+      "molecule": "asfotase alfa",
+      "modality": "Enzyme replacement",
+      "indications": "Hypophosphatasia (HPP)",
+      "revenue": 1641,
+      "actual": 38,
+      "cer": 37,
+      "caveat": "",
+      "source": "financial"
+    },
+    {
+      "product": "Soliris",
+      "molecule": "eculizumab",
+      "modality": "Complement inhibition",
+      "indications": "PNH, aHUS, gMG, NMOSD",
+      "revenue": 1076,
+      "actual": -25,
+      "cer": -26,
+      "caveat": "Biosimilar competition and switching to Ultomiris",
+      "source": "financial"
+    },
+    {
+      "product": "Koselugo",
+      "molecule": "selumetinib",
+      "modality": "MEK inhibition",
+      "indications": "NF1 plexiform neurofibromas",
+      "revenue": 585,
+      "actual": 17,
+      "cer": 15,
+      "caveat": "",
+      "source": "financial"
+    },
+    {
+      "product": "Other Rare Disease",
+      "molecule": "includes Kanuma and Beyonttra (JP only)",
+      "modality": "Other / aggregated",
+      "indications": "Multiple rare diseases",
+      "revenue": 226,
+      "actual": 28,
+      "cer": 25,
+      "caveat": "Not separable into Kanuma and Beyonttra from this disclosure",
+      "source": "financial"
+    }
+  ],
+  "regions": [
+    {
+      "product": "Ultomiris + Voydeya",
+      "us": 2190,
+      "emerging": 306,
+      "europe": 915,
+      "row": 605
+    },
+    {
+      "product": "Strensiq",
+      "us": 1332,
+      "emerging": 111,
+      "europe": 104,
+      "row": 94
+    },
+    {
+      "product": "Soliris",
+      "us": 595,
+      "emerging": 311,
+      "europe": 89,
+      "row": 81
+    },
+    {
+      "product": "Koselugo",
+      "us": 149,
+      "emerging": 225,
+      "europe": 149,
+      "row": 62
+    },
+    {
+      "product": "Other Rare Disease",
+      "us": 89,
+      "emerging": 51,
+      "europe": 60,
+      "row": 26
+    }
+  ],
+  "swot": [
+    {
+      "quadrant": "Strength",
+      "title": "Strong flagship franchise",
+      "evidence": "Ultomiris + Voydeya accounts for $4,016m of reported 9M 2026 Rare Disease revenue.",
+      "implication": "Protect leadership while monitoring concentration risk.",
+      "source": "financial"
+    },
+    {
+      "quadrant": "Strength",
+      "title": "Growing diversified anchors",
+      "evidence": "Strensiq grew 37% CER and Koselugo 15% CER in 9M 2026.",
+      "implication": "Maintain access and scientific education across franchises.",
+      "source": "financial"
+    },
+    {
+      "quadrant": "Weakness",
+      "title": "Portfolio concentration",
+      "evidence": "Ultomiris including Voydeya represents about 53% of Rare Disease revenue.",
+      "implication": "Diversify the growth mix and track concentration each quarter.",
+      "source": "financial"
+    },
+    {
+      "quadrant": "Weakness",
+      "title": "Established-brand erosion",
+      "evidence": "Soliris revenue declined 26% CER in 9M 2026.",
+      "implication": "Plan lifecycle transition and realistic legacy-brand forecasts.",
+      "source": "financial"
+    },
+    {
+      "quadrant": "Opportunity",
+      "title": "Pipeline and label expansion",
+      "evidence": "Rare Disease pipeline includes Phase III efzimfotase alfa, eneboparatide and additional projects.",
+      "implication": "Use milestone tracking to evaluate development opportunities.",
+      "source": "pipeline"
+    },
+    {
+      "quadrant": "Opportunity",
+      "title": "Market access expansion",
+      "evidence": "The 2026 results cite geographic launches and increasing demand for Ultomiris and Strensiq.",
+      "implication": "Track country-level reimbursement and launch progress.",
+      "source": "financial"
+    },
+    {
+      "quadrant": "Threat",
+      "title": "Eculizumab biosimilars",
+      "evidence": "FDA lists Bkemv and Epysqli as biosimilars referencing Soliris.",
+      "implication": "Monitor competitive entrants and erosion by geography.",
+      "source": "fda"
+    },
+    {
+      "quadrant": "Threat",
+      "title": "Regulatory and development uncertainty",
+      "evidence": "Rare-disease pipeline assets face clinical, approval and reimbursement uncertainty.",
+      "implication": "Build scenario analysis; do not treat pipeline assets as approved sales.",
+      "source": "pipeline"
+    }
+  ],
+  "pipeline": [
+    {
+      "asset": "ALXN2080",
+      "stage": "Phase I",
+      "area": "Healthy participants"
+    },
+    {
+      "asset": "ALXN2230",
+      "stage": "Phase I",
+      "area": "Healthy participants"
+    },
+    {
+      "asset": "ALXN2350",
+      "stage": "Phase I",
+      "area": "BAG3-associated dilated cardiomyopathy"
+    },
+    {
+      "asset": "AZD0120",
+      "stage": "Phase I",
+      "area": "AL amyloidosis"
+    },
+    {
+      "asset": "AZD1390",
+      "stage": "Phase I",
+      "area": "Glioblastoma"
+    },
+    {
+      "asset": "ALXN1920",
+      "stage": "Phase II",
+      "area": "Primary membranous nephropathy"
+    },
+    {
+      "asset": "cevolisiran (ALXN2030)",
+      "stage": "Phase II",
+      "area": "Antibody-mediated rejection"
+    },
+    {
+      "asset": "tarperprumig",
+      "stage": "Phase II",
+      "area": "ANCA-associated vasculitis"
+    },
+    {
+      "asset": "Amlypave (anselamimab)",
+      "stage": "Phase III",
+      "area": "AL amyloidosis \u2013 kappa light-chain"
+    },
+    {
+      "asset": "cliramitug",
+      "stage": "Phase III",
+      "area": "ATTR cardiomyopathy"
+    },
+    {
+      "asset": "efzimfotase alfa",
+      "stage": "Phase III",
+      "area": "Hypophosphatasia"
+    },
+    {
+      "asset": "eneboparatide",
+      "stage": "Phase III",
+      "area": "Hypoparathyroidism"
+    },
+    {
+      "asset": "Klygefa (gefurulimab)",
+      "stage": "Phase III",
+      "area": "Generalized myasthenia gravis"
+    }
+  ],
+  "sources": {
+    "financial": "https://www.sec.gov/Archives/edgar/data/901832/000165495426009256/a0835b.htm",
+    "medicines": "https://alexion.com/our-medicines",
+    "us_medicines": "https://alexion.us/our-medicines",
+    "pipeline": "https://www.astrazeneca.com/our-therapy-areas/pipeline.html",
+    "canada": "https://health-products.canada.ca/dpd-bdpp/search-fast-recherche-rapide?code=15662&lang=eng",
+    "fda": "https://www.fda.gov/drugs/biosimilars/biosimilar-product-information",
+    "az_earnings": "https://www.astrazeneca.com/media-centre/press-releases/2026/9m-and-q3-2026-results.html"
+  }
+};
+const $=id=>document.getElementById(id), f=n=>new Intl.NumberFormat('en-US').format(n),pct=n=>(n>0?'+':'')+n+'%',usd=n=>'$'+f(n)+'M',clean=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
+let selected='All';const total=DATA.products.reduce((s,p)=>s+p.revenue,0);const list=()=>selected==='All'?DATA.products:DATA.products.filter(x=>x.product===selected);const share=p=>(100*p.revenue/total).toFixed(1);
+function render(){let ps=list(),sum=ps.reduce((s,p)=>s+p.revenue,0),contribution=100*sum/total;
+$('filterText').textContent=selected==='All'?'Entire Rare Disease reporting portfolio':selected+' · '+contribution.toFixed(1)+'% of reported portfolio';
+const palette=['#43d6b1','#65a3ff','#f1c16c','#ef8eae','#9d8aff'];let pos=0;const stops=DATA.products.map((p,i)=>{let start=pos;pos+=100*p.revenue/total;return `${palette[i]} ${start.toFixed(3)}% ${pos.toFixed(3)}%`});$('revenueDonut').style.background=`conic-gradient(${stops.join(',')})`;$('donutCenter').innerHTML=`<strong>${selected==='All'?'$7.54B':share(ps[0])+'%'}</strong><span>${selected==='All'?'Portfolio revenue':clean(ps[0].product)}</span>`;$('donutLegend').innerHTML=DATA.products.map((p,i)=>`<button class="legendbtn ${selected===p.product?'active':''}" data-product="${clean(p.product)}"><span><span class="swatch" style="background:${palette[i]}"></span>${clean(p.product)}</span><span class="pct">${share(p)}%</span></button>`).join('');document.querySelectorAll('.legendbtn').forEach(b=>b.addEventListener('click',()=>{selected=selected===b.dataset.product?'All':b.dataset.product;$('productFilter').value=selected;render()}));
+
+$('kpis').innerHTML=[['Revenue in focus', '$'+(sum/1000).toFixed(2)+'B',selected==='All'?'Reported 9M Rare Disease':'Selected reported revenue line'],['Portfolio coverage',contribution.toFixed(1)+'%', 'Share of Rare Disease revenue'],['Growth (CER)',selected==='All'?'+11%':pct(ps[0].cer),'Published growth, not a derived rate'],['Active reporting lines',ps.length,'Out of five reported financial lines']].map(([label,value,note])=>`<div class="kpi"><label>${clean(label)}</label><strong>${clean(value)}</strong><div class="delta">${clean(note)}</div></div>`).join('');
+let max=Math.max(...DATA.products.map(x=>x.revenue));$('bars').innerHTML=ps.map(p=>`<div class="barrow"><span class="name" title="${clean(p.product)}">${clean(p.product)}</span><div class="track"><div class="fill" style="width:${p.revenue/max*100}%"></div></div><strong>${usd(p.revenue)}</strong></div>`).join('');
+$('growth').innerHTML=ps.map(p=>`<div class="score"><span>${clean(p.product)}</span><b class="grow ${p.cer>=0?'good':'bad'}">${pct(p.cer)}</b></div>`).join('');
+$('takeaway').innerHTML=selected==='All'?'<b>Leadership insight:</b> Ultomiris + Voydeya represents 53.2% of reported revenue. Soliris is contracting while Strensiq is expanding strongly.': '<b>Product insight:</b> '+clean(ps[0].caveat||ps[0].indications)+'. Use revenue and growth together; do not assume growth implies profitability.';
+let reg=DATA.regions.filter(r=>selected==='All'||r.product===selected),vals=['us','emerging','europe','row'].map(k=>reg.reduce((s,r)=>s+r[k],0)),maxreg=Math.max(...vals);$('regions').innerHTML=['United States','Emerging markets','Europe','Established RoW'].map((name,i)=>`<div class="barrow"><span class="name">${name}</span><div class="track"><div class="fill" style="width:${100*vals[i]/maxreg}%"></div></div><strong>${usd(vals[i])}</strong></div>`).join('');
+$('productRows').innerHTML=ps.map(p=>`<tr><td><b>${clean(p.product)}</b></td><td>${usd(p.revenue)}</td><td class="${p.actual>=0?'good':'bad'}">${pct(p.actual)}</td><td class="${p.cer>=0?'good':'bad'}">${pct(p.cer)}</td><td>${share(p)}%</td><td>${clean(p.indications)}</td></tr>`).join('');
+$('geographyRows').innerHTML=ps.map(p=>{const r=DATA.regions.find(r=>r.product===p.product);return `<div class="statline"><span>${clean(p.product)}</span><b>${(r.us/p.revenue*100).toFixed(1)}% US</b></div>`}).join('');
+$('productNotes').innerHTML=ps.map(p=>`<div class="score" style="display:block"><b>${clean(p.product)}</b><div class="muted">${clean(p.molecule)} · ${clean(p.modality)}</div><div class="muted" style="font-size:12px">${clean(p.caveat||'Separate reported revenue line; consult product labels for country-specific approved indications.')}</div></div>`).join('')}
+function initialize(){DATA.products.forEach(p=>{$('productFilter').insertAdjacentHTML('beforeend',`<option value="${clean(p.product)}">${clean(p.product)}</option>`)});$('productFilter').addEventListener('change',e=>{selected=e.target.value;render()});document.querySelectorAll('.nav').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.nav').forEach(x=>x.classList.remove('active'));b.classList.add('active');['overview','products','swot','pipeline','governance'].forEach(id=>$(id).classList.toggle('hidden',id!==b.dataset.tab))}));
+const quadrants=['Strength','Weakness','Opportunity','Threat'];$('swotGrid').innerHTML=quadrants.map(q=>`<div class="swot ${q.toLowerCase()}"><h3>${q==='Strength'?'S · Strengths':q==='Weakness'?'W · Weaknesses':q==='Opportunity'?'O · Opportunities':'T · Threats'}</h3>${DATA.swot.filter(x=>x.quadrant===q).map(x=>`<div class="swotarticle"><b>${clean(x.title)}</b><p>${clean(x.evidence)}</p><small>Decision: ${clean(x.implication)}</small></div>`).join('')}</div>`).join('');$('pipelineGrid').innerHTML=['Phase I','Phase II','Phase III'].map(st=>`<div class="panel stage"><h2>${st}</h2><p class="hint">Selected examples only</p>${DATA.pipeline.filter(x=>x.stage===st).map(x=>`<div class="asset"><b>${clean(x.asset)}</b><span>${clean(x.area)}</span></div>`).join('')}</div>`).join('');$('sources').innerHTML=Object.entries(DATA.sources).map(([k,v])=>`<div class="source"><span class="pill">${clean(k)}</span> &nbsp;<a href="${clean(v)}" target="_blank" rel="noopener noreferrer">${clean(v)}</a></div>`).join('');$('exportBtn').addEventListener('click',()=>{let fields=['product','molecule','modality','indications','revenue','actual','cer','caveat'],csv=[fields.join(','),...list().map(p=>fields.map(k=>'"'+String(p[k]??'').replaceAll('"','""')+'"').join(','))].join('\r\n');let a=document.createElement('a');a.href=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));a.download='alexion_reported_products_9m2026.csv';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)});render()}
+initialize();</script></body></html>

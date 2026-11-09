@@ -1,0 +1,6 @@
+product,molecule,modality,indications,revenue_9m_2026_usdm,growth_actual_pct,growth_cer_pct,caveat,source_key
+Ultomiris + Voydeya,ravulizumab + danicopan (included),Complement inhibition,"PNH, aHUS, gMG, NMOSD",4016,16,16,Ultomiris revenue includes Voydeya; never add Voydeya again,financial
+Strensiq,asfotase alfa,Enzyme replacement,Hypophosphatasia (HPP),1641,38,37,,financial
+Soliris,eculizumab,Complement inhibition,"PNH, aHUS, gMG, NMOSD",1076,-25,-26,Biosimilar competition and switching to Ultomiris,financial
+Koselugo,selumetinib,MEK inhibition,NF1 plexiform neurofibromas,585,17,15,,financial
+Other Rare Disease,includes Kanuma and Beyonttra (JP only),Other / aggregated,Multiple rare diseases,226,28,25,Not separable into Kanuma and Beyonttra from this disclosure,financial

@@ -1,0 +1,230 @@
+{
+  "products": [
+    {
+      "product": "Ultomiris + Voydeya",
+      "molecule": "ravulizumab + danicopan (included)",
+      "modality": "Complement inhibition",
+      "indications": "PNH, aHUS, gMG, NMOSD",
+      "revenue": 4016,
+      "actual": 16,
+      "cer": 16,
+      "caveat": "Ultomiris revenue includes Voydeya; never add Voydeya again",
+      "source": "financial"
+    },
+    {
+      "product": "Strensiq",
+      "molecule": "asfotase alfa",
+      "modality": "Enzyme replacement",
+      "indications": "Hypophosphatasia (HPP)",
+      "revenue": 1641,
+      "actual": 38,
+      "cer": 37,
+      "caveat": "",
+      "source": "financial"
+    },
+    {
+      "product": "Soliris",
+      "molecule": "eculizumab",
+      "modality": "Complement inhibition",
+      "indications": "PNH, aHUS, gMG, NMOSD",
+      "revenue": 1076,
+      "actual": -25,
+      "cer": -26,
+      "caveat": "Biosimilar competition and switching to Ultomiris",
+      "source": "financial"
+    },
+    {
+      "product": "Koselugo",
+      "molecule": "selumetinib",
+      "modality": "MEK inhibition",
+      "indications": "NF1 plexiform neurofibromas",
+      "revenue": 585,
+      "actual": 17,
+      "cer": 15,
+      "caveat": "",
+      "source": "financial"
+    },
+    {
+      "product": "Other Rare Disease",
+      "molecule": "includes Kanuma and Beyonttra (JP only)",
+      "modality": "Other / aggregated",
+      "indications": "Multiple rare diseases",
+      "revenue": 226,
+      "actual": 28,
+      "cer": 25,
+      "caveat": "Not separable into Kanuma and Beyonttra from this disclosure",
+      "source": "financial"
+    }
+  ],
+  "regions": [
+    {
+      "product": "Ultomiris + Voydeya",
+      "us": 2190,
+      "emerging": 306,
+      "europe": 915,
+      "row": 605
+    },
+    {
+      "product": "Strensiq",
+      "us": 1332,
+      "emerging": 111,
+      "europe": 104,
+      "row": 94
+    },
+    {
+      "product": "Soliris",
+      "us": 595,
+      "emerging": 311,
+      "europe": 89,
+      "row": 81
+    },
+    {
+      "product": "Koselugo",
+      "us": 149,
+      "emerging": 225,
+      "europe": 149,
+      "row": 62
+    },
+    {
+      "product": "Other Rare Disease",
+      "us": 89,
+      "emerging": 51,
+      "europe": 60,
+      "row": 26
+    }
+  ],
+  "swot": [
+    {
+      "quadrant": "Strength",
+      "title": "Strong flagship franchise",
+      "evidence": "Ultomiris + Voydeya accounts for $4,016m of reported 9M 2026 Rare Disease revenue.",
+      "implication": "Protect leadership while monitoring concentration risk.",
+      "source": "financial"
+    },
+    {
+      "quadrant": "Strength",
+      "title": "Growing diversified anchors",
+      "evidence": "Strensiq grew 37% CER and Koselugo 15% CER in 9M 2026.",
+      "implication": "Maintain access and scientific education across franchises.",
+      "source": "financial"
+    },
+    {
+      "quadrant": "Weakness",
+      "title": "Portfolio concentration",
+      "evidence": "Ultomiris including Voydeya represents about 53% of Rare Disease revenue.",
+      "implication": "Diversify the growth mix and track concentration each quarter.",
+      "source": "financial"
+    },
+    {
+      "quadrant": "Weakness",
+      "title": "Established-brand erosion",
+      "evidence": "Soliris revenue declined 26% CER in 9M 2026.",
+      "implication": "Plan lifecycle transition and realistic legacy-brand forecasts.",
+      "source": "financial"
+    },
+    {
+      "quadrant": "Opportunity",
+      "title": "Pipeline and label expansion",
+      "evidence": "Rare Disease pipeline includes Phase III efzimfotase alfa, eneboparatide and additional projects.",
+      "implication": "Use milestone tracking to evaluate development opportunities.",
+      "source": "pipeline"
+    },
+    {
+      "quadrant": "Opportunity",
+      "title": "Market access expansion",
+      "evidence": "The 2026 results cite geographic launches and increasing demand for Ultomiris and Strensiq.",
+      "implication": "Track country-level reimbursement and launch progress.",
+      "source": "financial"
+    },
+    {
+      "quadrant": "Threat",
+      "title": "Eculizumab biosimilars",
+      "evidence": "FDA lists Bkemv and Epysqli as biosimilars referencing Soliris.",
+      "implication": "Monitor competitive entrants and erosion by geography.",
+      "source": "fda"
+    },
+    {
+      "quadrant": "Threat",
+      "title": "Regulatory and development uncertainty",
+      "evidence": "Rare-disease pipeline assets face clinical, approval and reimbursement uncertainty.",
+      "implication": "Build scenario analysis; do not treat pipeline assets as approved sales.",
+      "source": "pipeline"
+    }
+  ],
+  "pipeline": [
+    {
+      "asset": "ALXN2080",
+      "stage": "Phase I",
+      "area": "Healthy participants"
+    },
+    {
+      "asset": "ALXN2230",
+      "stage": "Phase I",
+      "area": "Healthy participants"
+    },
+    {
+      "asset": "ALXN2350",
+      "stage": "Phase I",
+      "area": "BAG3-associated dilated cardiomyopathy"
+    },
+    {
+      "asset": "AZD0120",
+      "stage": "Phase I",
+      "area": "AL amyloidosis"
+    },
+    {
+      "asset": "AZD1390",
+      "stage": "Phase I",
+      "area": "Glioblastoma"
+    },
+    {
+      "asset": "ALXN1920",
+      "stage": "Phase II",
+      "area": "Primary membranous nephropathy"
+    },
+    {
+      "asset": "cevolisiran (ALXN2030)",
+      "stage": "Phase II",
+      "area": "Antibody-mediated rejection"
+    },
+    {
+      "asset": "tarperprumig",
+      "stage": "Phase II",
+      "area": "ANCA-associated vasculitis"
+    },
+    {
+      "asset": "Amlypave (anselamimab)",
+      "stage": "Phase III",
+      "area": "AL amyloidosis \u2013 kappa light-chain"
+    },
+    {
+      "asset": "cliramitug",
+      "stage": "Phase III",
+      "area": "ATTR cardiomyopathy"
+    },
+    {
+      "asset": "efzimfotase alfa",
+      "stage": "Phase III",
+      "area": "Hypophosphatasia"
+    },
+    {
+      "asset": "eneboparatide",
+      "stage": "Phase III",
+      "area": "Hypoparathyroidism"
+    },
+    {
+      "asset": "Klygefa (gefurulimab)",
+      "stage": "Phase III",
+      "area": "Generalized myasthenia gravis"
+    }
+  ],
+  "sources": {
+    "financial": "https://www.sec.gov/Archives/edgar/data/901832/000165495426009256/a0835b.htm",
+    "medicines": "https://alexion.com/our-medicines",
+    "us_medicines": "https://alexion.us/our-medicines",
+    "pipeline": "https://www.astrazeneca.com/our-therapy-areas/pipeline.html",
+    "canada": "https://health-products.canada.ca/dpd-bdpp/search-fast-recherche-rapide?code=15662&lang=eng",
+    "fda": "https://www.fda.gov/drugs/biosimilars/biosimilar-product-information",
+    "az_earnings": "https://www.astrazeneca.com/media-centre/press-releases/2026/9m-and-q3-2026-results.html"
+  }
+}
